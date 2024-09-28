@@ -1,0 +1,33 @@
+*::before,
+*::after,
+* {
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100vh;
+  font-family: $ff-main-bold;
+  background-color: $bg-color;
+  color: $fore-color-main;
+}
+
+span {
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+.wrapper {
+  padding: 40px 0;
+  height: 100%;
+  background-image: url(../img/bgimage.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1920px;
+  padding: 0 16px;
+}
